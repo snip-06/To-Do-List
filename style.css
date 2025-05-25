@@ -1,0 +1,116 @@
+*{
+  margin: 0;padding: 0;
+   font-family: "Comic Neue", cursive;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+
+
+.container{
+ height: 100vh;
+ background: linear-gradient(135deg, #73c48f,#f26a36,#695e91,#05a1c7,#faf371);
+ padding: 10px;
+}
+
+.todo{
+   
+    max-width: 500px;
+    background:rgba(255, 255, 255, 0.306);
+    border: 2px solid rgba(0, 0, 0, 0.368);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 50px 30px 60px ;
+    border-radius: 10px;
+}
+
+.todo-heading{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.todo-image{
+  width: 30px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+input{
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  background-color: #f9f6cb;
+  border-radius: 36px;
+
+}
+.row button{
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 36px;
+  margin-left: 10px;
+  background-color: #f26a36;
+}
+.row button:hover{
+  cursor: pointer;
+  background-color: #f5662ed6;
+  box-shadow: 0px 0px 8px #73c48f  ;
+}
+ul li{
+  list-style: none;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+ul li p{
+  display: inline;
+  word-break: break-word;
+}
+
+
+.uncheck-icon{
+  font-size: 16px;
+  margin-right: 8px;
+}
+.check-icon{
+  font-size: 16px;
+  color: #4f844d;
+  margin-right: 8px;
+}
+.checked{
+  color: rgba(0, 0, 0, 0.742);
+  text-decoration: line-through;
+}
+
+.cross{
+  position: absolute;
+  right: 0;
+  top: 18px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  
+}
+
+.cross:hover{
+  background-color: #695e91bd;
+}
